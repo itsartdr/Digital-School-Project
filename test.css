@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    color: white;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
+  /* Top left text */
+  .top-left {
+    top: 75px;
+    left: 100px;
+  }
+
+  .top-left2 {
+    top: 135px;
+    left: 102px;
+  }
+  
+  .top-left3 {
+    top: 210px;
+    left: 102px;
+  }
+
+.container2 {
+  text-align: left;
+  object-fit: cover;
+  display: inline;
+  margin-right: auto;
+  margin-left: 0px;
+  width: 1200px;
+  height: 802px;
+}

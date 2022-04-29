@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belg Badovc - Të gjithë për qentë endacak</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("Y8G9_812lEaQVsd2o");
+})();
+</script>
+<style>
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* footer */
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;    
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+/* about us page */
+.sub-header {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1 {
+    margin-top: 100px;
+}
+.sub-header2 {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner4.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header2 h1 {
+    margin-top: 100px;
+}
+.about-us {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col {
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col video {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
+.about-col img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-top: 20px;
+}
+.about-col h1 {
+    margin-top: 20px;
+    padding-top: 0;
+    color: black;
+    text-align: left;
+    margin: 20px;
+}
+@media(max-width: 700px) {
+    .about-col  {
+        position: relative;
+        top: 130px;
+    }
+    .about-col p {
+        padding: 15px 0 25px;
+        text-align: center;
+        font-size: 18px;
+    }
+}
+.about-col p {
+    padding: 15px 0 25px;
+    text-align: left;
+    font-size: 18px;
+
+}
+.about-col .hero-btn {
+    align-items: left;
+}
+
+.red-btn {
+    border: 1px solid #3f48cc;
+    background: transparent;
+    color: #3f48cc;
+    align-items: center;
+}
+.red-btn:hover {
+    color: #fff;
+}
+.comment-box {
+    border: 1px solid #ccc;
+    margin: 50px 0;
+    padding: 10px 20px;
+}
+.comment-box h3 {
+    text-align: left;
+    color: black;
+}
+.comment-form input, .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background: #f0f0f0;
+}
+.comment-form button {
+    margin: 10px 0;
+}
+.footer h4 {
+    color: black;
+}
+@media(max-width: 700px) {
+    .sub-header h1 {
+        font-size: 24px;
+    }
+    .red-btn {
+        left: auto;
+    }
+    .hr {
+        width: 200px;
+    }
+}
+/* contact us */
+.location {
+    width: 100%;
+    display: flex;
+    padding: 80px 0;
+    justify-content: center;
+
+}
+.location img {
+    width: 100%;
+    margin-top: 130px;
+}
+.contact-us {
+    width: 80%;
+    margin: auto;
+}
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa {
+    font-size: 28px;
+    color: #3f48cc;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p {
+    padding: 0;
+}
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+.contact-col input, .contact-col textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.footer img {
+    object-fit: contain;
+    width: 30px;
+    margin: 10px;
+}
+@media(max-width: 700px) {
+    .location {
+    position: relative;
+    top: 18vw;
+    left: auto;
+}
+}
+
+#location {
+    border-radius: 1rem;
+}
+
+.about-col {
+    margin-top: 5vw;
+}
+
+.images-col img {
+    object-fit: contain;
+    display: inline-flex;
+    margin: 40px;
+    border-radius: 1rem;
+    justify-content: left;
+    align-items: left;
+
+}
+.images-col {
+    position: relative;
+    top: 15vw;
+}
+@media(max-width: 700px) {
+    .images {
+    left: auto;
+    width: 80%;
+    margin: 20px;
+    border-radius: 1rem;
+    top: 20px;
+}
+}
+</style>
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+        <h1>Contact Us</h1>
+    </section>
+    <!-- contact us content -->
+    <section class="location">
+        <div class="div-location">
+        <img src="images/BlankMap-World-v4-Borders.png" alt="">
+    </div></section>
+
+    <section class="contact-us" id="contact-us">
+        <div class="row">
+            <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span class="contact-row1">
+                    <h5>Shuaib Spahiu</h5>
+                    <p>Shuaib Spahiu, Prizren</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+383 43 700 554</h5>
+                    <p>Contact Us by Phone</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>info@shkolladigjitale.com</h5>
+                    <p>Contact Us by E-Mail</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form id="contact-form">
+                <input type="text"  placeholder="Enter Name" required name="from_name">
+                <input type="email"  placeholder="Enter Email" required name="from_email">
+                <input type="text"  placeholder="Enter Subject" name="subject">
+                <textarea rows="8"  placeholder="Message" required name="message"></textarea>
+                <button type="submit" onclick="sendEmail(event)" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+<script>
+    function sendEmail(event) {
+            event.preventDefault();
+            const contact_service = "service_95wm4gm";
+            const contact_form = "template_dtm36dz";
+            emailjs.sendForm(contact_service, contact_form, "#contact-form")
+                .then(function() {
+                    alert('SUCCESS! Your message was sent successfully.');
+                }, function(error) {
+                    alert('FAILED...! Please try again later...', error);
+                });
+        }
+</script>
+</body>
+</html>
